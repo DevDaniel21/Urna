@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .urna {
     background-color: #dbd5c9;
     padding: 30px;
@@ -11,7 +18,7 @@
 }
 
 .tela {
-    width: 450px;
+    width: 500px;
     height: 320px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
 }
